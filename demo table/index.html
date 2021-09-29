@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>On the page</title>
+    <meta name="author" content="Oluwatade fadipe">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Table Demo</h1>
+    <p>A table is a way of creating a structured grid display of data.
+        The tags we will be interested in are:</P>
+    <ul>
+        <li>&lt;Table&gt; :identifies the table </li>
+        <li>&lt;thead&gt; :identifies the header row of the table</li>
+        <li>&lt;th&gt; :identifies the text in the head of the column</li>
+        <li>&lt;tbody&gt; :identifies the body of the table (detail rows) </li>
+        <li>&lt;tr&gt; :identifies the start of a body row</li>
+        <li>&lt;td&gt; :identifies the data cell in the body row</li>
+        <li>&lt;tfoot&gt; :identifies the footer row of the table</li>
+    </ul>
+    <P>
+        All tags are paired tags (opening and closing tag). The border parameter on the table tag will allow
+        you to specify a border around your table. The colspan tag and rowspan parameters are used on the &lt;td&gt; tab
+        allows you to merge columns on a single row and column cells across rows.
+    </p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Course#</th>
+                <th>Name</th>
+                <th>Hours</th>
+                <th>Pass criteria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="img/computer.png" alt="computer"></td>
+                <td>COMP1017</td>
+                <td>Web Design Fundamentals</td>
+                <td>60</td>
+                <td>Overall 50%</td>
+            </tr>
+            <tr>
+                <td><img src="img/money.png" alt="computer"></td>
+                <td>COMP1008</td>
+                <td>Digital Design Graphic tools </td>
+                <td>60</td>
+                <td>Overall 50%</td>
+            </tr>
+            <tr>
+                <td><img src="img/telephone.png" alt="computer"></td>
+                <td>CPSC1517</td>
+                <td>Introduction To Application Developement</td>
+                <td>90</td>
+                <td>Overall 50% and <b>minimum</b> in <em>Theory</em> <strong>and</strong> <i>Project</i> components
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td colspan="2">Total</td>
+                <td>210</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
