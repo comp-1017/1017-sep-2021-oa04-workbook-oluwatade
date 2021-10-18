@@ -1,0 +1,31 @@
+h1{ color: red;}
+p{
+   background-color: aquamarine;
+   font-family: Calibri; 
+}
+h2 h3 h4 h5 h6
+h2{
+    color: green;
+    background-color: silver;
+    border: 3px solid black
+}
+.menu-items{
+    border-left: 5px solid firebrick;
+    font-family: courier, sans-serif;
+    background-color: #f4f4f4;
+    padding: 24px;
+    margin-left: 24px;
+    width: 600px;
+}
+section{
+    font-family: Arial;
+    margin: 48px;
+    width: 800px;
+    background-color: yellow;
+}
+aside> p{
+    background-color: violet;
+}
+body aside p{
+    background-color: royalblue;
+}
