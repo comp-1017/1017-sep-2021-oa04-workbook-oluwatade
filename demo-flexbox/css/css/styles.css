@@ -1,0 +1,43 @@
+body {
+    background: rgba(0, 0, 0, 0.01);
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5
+}
+body > div{
+    background-color: #c0c0c0;
+}
+
+.red-paint, .blue-paint{
+    width: 450px;
+    height: 200px;
+}
+.red-paint{
+
+     background-color: red;
+     margin: 20px 10px 20px 20px;
+}
+
+.blue-paint{
+    
+  
+     background-color: blue;
+     margin: 20px 20px 20px 10px;
+}
+
+.black-paint{
+    margin: 0px 20px 20px 20px;
+    width: 920px;
+    height: 50px;
+    background-color: black;
+}
+
+main,footer{
+    display: flex;
+    flex-wrap: wrap;
+}

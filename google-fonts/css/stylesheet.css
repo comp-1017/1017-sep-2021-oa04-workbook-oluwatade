@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+/* TYPOGRAPHY */
+h1{
+    font-size: 90px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Roboto slab', sans-serif;
+}
+
+h2, p{
+    color: #9b9b9b;
+}
+
+
+/* LAYOUT */
+main{
+    margin-top: 100px;
+    margin-bottom: 26px;
+}
+
+.section-img{
+    width: 90px;
+}
+
+.footer-img{
+    margin-right: 10px;
+    width: 40px;
+}
