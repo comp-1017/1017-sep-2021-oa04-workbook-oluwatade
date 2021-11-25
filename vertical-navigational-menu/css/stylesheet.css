@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+    background-image: url(../img/background-tile.gif);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/* TYPOGRAPHY */
+header{
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+}
+
+.banner{
+    background-image: url(../img/flowers.jpg);
+}
+
+.banner h1{
+    font-size: 36px;
+    color: #f9ea4f;
+    font-family: 'Alegreya', serif;
+}
+
+.banner a{
+    color: #faf9f8;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.banner li{
+    list-style-type: none;
+}
+
+.banner a:hover{
+    color:#f9ea4f
+}
+
+/* LAYOUT */
+
+header img{
+    margin: 15px;
+}
+
+header{
+    margin-bottom: 50px;
+}
+
+.banner{
+    padding: 60px 0 0 680px;
+    height: 420px;
+}
+
+.banner li{
+    margin-bottom: 18px;
+}
